@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Epilogue:wght@700&display=swap");
+
+html,
+body {
+  margin: 0;
+  background-color: #fef0e7;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 230px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fef0e7;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+header {
+  display: flex;
+  background-color: #b73d4a;
+  color: #fef0e7;
+  height: 200px;
+  align-items: center;
+  gap: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+a {
+  color: #fef0e7;
+  font-family: Bitter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+hr {
+  height: 20px;
+  margin: 0;
+  background: #582343;
+  border-color: #582343;
+}
+
+.main {
+  display: flex;
+  max-width: 440px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
+  gap: 20px;
+}
+
+.title {
+  color: #b73d4a;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.info {
+  color: #37162a;
+  font-family: Bitter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+button {
+  display: flex;
+  height: 40px;
+  padding: 35px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #582343;
+  color: #f8edf4;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.building {
+  display: flex;
+  margin-right: 90px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 50px;
+  border: 15px solid #582343;
+  max-width: 497px;
+  max-height: 415px;
+}
